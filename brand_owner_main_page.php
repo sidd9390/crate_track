@@ -32,16 +32,14 @@
     </section>
     <section class="status ms-2 me-2 p-2 mt-3" style="background-color: white; border-radius: 8px;">
         <div class="container">
-            <div class="row">
-                <div class="col-8">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <div>
                     <h3>09:41 AM</h3>
-                    <h6 class="mb-3">1000 crates</h6>
-                    <div class="d-flex flex-row">
-                        <button id="sip" class="btn btn-primary me-2 btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Add Crates</button>
-                        <a href="./trace.html" class="btn btn-primary btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0; ">Trace Crates</a>
+                    <h6 class="mb-1">1000 crates</h6>
                     </div>
                 </div>
-                <div class="col-4 text-end d-flex align-items-center">
+                <div class="col-6 text-end d-flex align-items-center justify-content-center">
                     <img src="./assets/images/pngwing 1.png" class="img-fluid" style="width: 100px;" alt="">
                 </div>
             </div>
@@ -49,53 +47,42 @@
     </section>
     <section class="status ms-2 me-2 p-2 mt-3" style="background-color: white; border-radius: 8px;">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center">
                 <div class="col-4 text-end d-flex align-items-center">
                     <img src="./assets/images/driver_img.webp" class="img-fluid" style="width: 100px;" alt="">
                 </div>
                 <div class="col-8">
                     <h3>5 Distributors</h3>
                     <p class="m-0">Crates under Distributors</p>
-                    <h6 class="mb-3 fw-bold">700 crates</h6>
-                    <div class="d-flex flex-row">
-                        <a href="./add_Distributor.html" class="btn btn-primary me-2 btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Add Distributor</a>
-                        <a href="./distributorlist.html" class="btn btn-primary btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">View all</a>
-                    </div>
+                    <h6 class="mb-1 fw-bold">700 crates</h6>
                 </div>
             </div>
         </div>
     </section>
     <section class="status ms-2 me-2 p-2 mt-3" style="background-color: white; border-radius: 8px;">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center">
                 <div class="col-4 text-end d-flex align-items-center">
                     <img src="./assets/images/driver_img.webp" class="img-fluid" style="width: 100px;" alt="">
                 </div>
                 <div class="col-8">
                     <h3>14 Pilots</h3>
                     <p class="m-0">Crates under Pilot</p>
-                    <h6 class="mb-3 fw-bold">1000 crates</h6>
-                    <div class="d-flex flex-row">
-                        <a href="./add_driver.html" class="btn btn-primary me-2 btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Add driver</a>
-                        <a href="./driverlist.html" class="btn btn-primary btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">View all</a>
-                    </div>
+                    <h6 class="mb-1 fw-bold">1000 crates</h6>
                 </div>
             </div>
         </div>
     </section>
     <section class="status ms-2 me-2 p-2 mt-3" style="background-color: white; border-radius: 8px;">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center">
                 <div class="col-4 text-end d-flex align-items-center">
                     <img src="./assets/images/Shop_img.webp" class="img-fluid" style="width: 100px;" alt="">
                 </div>
                 <div class="col-8">
                     <h3>50 Shops</h3>
                     <p class="m-0">Crates under Shops</p>
-                    <h6 class="mb-3 fw-bold">5000 crates</h6>
-                    <div class="d-flex flex-row">
-                        <a href="./shop_list.html" class="btn btn-primary btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0; ">View Shops List</a>
-                    </div>
+                    <h6 class="mb-1 fw-bold">5000 crates</h6>
                 </div>
             </div>
         </div>

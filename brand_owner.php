@@ -33,19 +33,19 @@
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Actions</h5>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="font-size:30px">Actions</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body p-0">
   <div class="list-group">
   <ul class="p-0 m-0">
-    <a href="#" style="color:black;text-decoration:none; height:fit-content;color:black" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Crates</li></a>
-    <a href="#" style="color:black;text-decoration:none; height:fit-content;color:black" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Trace Crates</li></a>
-    <a href="#" style="color:black;text-decoration:none; height:fit-content;color:black" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Distributor</li></a>
-    <a href="#" style="color:black;text-decoration:none; height:fit-content;color:black" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Distributors List</li></a>
-    <a href="#" style="color:black;text-decoration:none; height:fit-content;color:black" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Pilot</li></a>
-    <a href="#" style="color:black;text-decoration:none; height:fit-content;color:black" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Pilots List</li></a>
-    <a href="#" style="color:black;text-decoration:none; height:fit-content;color:black" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Shops List</li></a>
+    <a onclick="addcrate()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Crates</li></a>
+    <a onclick="trace()" href="#" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Trace Crates</li></a>
+    <a onclick="add_distrbutor()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Distributor</li></a>
+    <a onclick="distributorlist()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Distributors List</li></a>
+    <a onclick="add_pilot()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Pilot</li></a>
+    <a onclick="pilot_list()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Pilots List</li></a>
+    <a onclick="shop_list()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Shops List</li></a>
     </ul>
 </div>
   </div>
@@ -68,7 +68,7 @@
                     </a>
                 </li>
                 <li class="list">
-                    <a onclick="addcrate()">
+                    <a href="#">
                         <span class="icon">
                             <ion-icon name="person-outline"></ion-icon>
                         </span>
@@ -123,6 +123,55 @@
 
     // Change the src attribute of the iframe
     iframe.src = './brand_owner_main_page.php';
+
+  }
+
+  function trace() {
+    // Get the iframe element by its ID
+    var iframe = document.getElementById('BOFrame');
+
+    // Change the src attribute of the iframe
+    iframe.src = './trace.php';
+
+  }
+  function add_distrbutor() {
+    // Get the iframe element by its ID
+    var iframe = document.getElementById('BOFrame');
+
+    // Change the src attribute of the iframe
+    iframe.src = './add_Distributor.php';
+
+  }
+  function distributorlist() {
+    // Get the iframe element by its ID
+    var iframe = document.getElementById('BOFrame');
+
+    // Change the src attribute of the iframe
+    iframe.src = './distributorlist.php';
+
+  }
+  function add_pilot() {
+    // Get the iframe element by its ID
+    var iframe = document.getElementById('BOFrame');
+
+    // Change the src attribute of the iframe
+    iframe.src = './add_driver.php';
+
+  }
+  function pilot_list() {
+    // Get the iframe element by its ID
+    var iframe = document.getElementById('BOFrame');
+
+    // Change the src attribute of the iframe
+    iframe.src = './driverlist.php';
+
+  }
+  function shop_list() {
+    // Get the iframe element by its ID
+    var iframe = document.getElementById('BOFrame');
+
+    // Change the src attribute of the iframe
+    iframe.src = './shop_list.php';
 
   }
     </script>
