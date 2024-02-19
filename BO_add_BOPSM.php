@@ -1,3 +1,5 @@
+<?php
+?>
 <!doctype html>
 <html lang="en">
 
@@ -25,30 +27,30 @@
 
     <section class="login ps-3 pe-3" style="width: 100%;">
         <div>
-            <h1 class="fw-bold">Enter Distributor Details</h1>
+            <h1 class="fw-bold">Enter Brand Pilot Details</h1>
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name">
-                <label for="floatingInput"><i class="fa-solid fa-shop"></i> Distributor Name</label>
+                <label for="floatingInput"><i class="fa-regular fa-id-card"></i> Pilot Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Vehicle Number">
+                <label for="floatingInput"><i class="fa-solid fa-truck"></i> Vehicle Number</label>
             </div>
             <div class="form-floating mb-3">
                 <input type="number" class="form-control" id="floatingInput" placeholder="Enter Number">
                 <label for="floatingInput"><i class="fa-solid fa-phone"></i> Mobile Number</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Enter Address">
-                <label for="floatingInput"><i class="fa-solid fa-shop"></i> Office Address</label>
-            </div>
-            <div class="form-floating mb-3">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword"><i class="fa-solid fa-lock"></i> Set Password</label>
             </div>
             <div class="bttn text-center mb-3" style="width: 100%;">
-                <a href="./distributorlist.php" class="btn btn-primary"
+                <a href="./BO_BOPSM_list.php" class="btn btn-primary"
                     style="width: 100%; background: rgba(27, 154, 179, 1); padding: 12px 0px; border: 0; font-size: 20px;">Add
-                    Distributor</a>
+                    Driver</a>
             </div>
             <div class="text-center">
-                <h6>Share the Password with your Distributor for Login Purpose</h6>
+                <h6>Share the Password with your Driver for Login Purpose</h6>
             </div>
         </div>
     </section>

@@ -1,5 +1,7 @@
 <?php
 ?>
+<?php
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,7 +14,7 @@
 </head>
 <body style="background-color: rgb(226, 240, 243);">
 
-    <section class="top-bar ps-1 pe-1 pt-2 pb-2" style="background-color: rgba(27, 154, 179, 1); color: white; width: 100%; position: fixed; top: 0;">
+    <section class="top-bar ps-1 pe-1 pt-2" style="background-color: rgba(27, 154, 179, 1); color: white; width: 100%; position: fixed; top: 0;">
         <div class="container m-0">
             <div class="row d-flex align-items-center">
                 <div class="col-6">
@@ -21,14 +23,11 @@
                 <div class="col-6 d-flex justify-content-end align-items-center">
                     <a href="#" style="font-size: 35px; color: white;"class="me-4 p-0 m-0"><ion-icon name="qr-code-outline"></ion-icon></a>
                     <a href="#" style="font-size: 35px; color: white;"class="me-4 p-0 m-0"><ion-icon name="notifications-outline"></ion-icon></a>
-                    <a href="#" style="font-size: 35px; color: white;"class="p-0 m-0"><ion-icon name="log-out-outline"></ion-icon></a>
+                    <a href="./index.html" style="font-size: 35px; color: white;"class="p-0 m-0"><ion-icon name="log-out-outline"></ion-icon></a>
                 </div>
             </div>
         </div>
     </section>
-
-
-
 
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -38,20 +37,16 @@
   </div>
   <div class="offcanvas-body p-0">
   <div class="list-group">
+
+  
   <ul class="p-0 m-0">
-    <a onclick="addcrate()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Crates</li></a>
-    <a onclick="trace()" href="#" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Trace Crates</li></a>
-    <a onclick="add_distrbutor()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Distributor</li></a>
-    <a onclick="distributorlist()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Distributors List</li></a>
-    <a onclick="add_pilot()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Pilot</li></a>
-    <a onclick="pilot_list()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Pilots List</li></a>
-    <a onclick="shop_list()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Shops List</li></a>
+    <a onclick="send_Crates()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Send Crates</li></a>
     </ul>
 </div>
   </div>
 </div>
 
-    <iframe src="./brand_owner_main_page.php" style="height:100vh;width:100%;" title="Iframe Example" id="BOFrame"></iframe>
+    <iframe src="./RS_home.php" style="height:100vh;width:100%;" title="Iframe Example" id="BOFrame"></iframe>
    
 
 
@@ -109,12 +104,12 @@
         </div>
     </section>
     <script>
-        function addcrate() {
+    function send_Crates() {
     // Get the iframe element by its ID
     var iframe = document.getElementById('BOFrame');
 
     // Change the src attribute of the iframe
-    iframe.src = './add_delete_crates.php';
+    iframe.src = './RS_send_crates_RS_to_pilot.php';
 
   }
   function home() {
@@ -122,56 +117,7 @@
     var iframe = document.getElementById('BOFrame');
 
     // Change the src attribute of the iframe
-    iframe.src = './brand_owner_main_page.php';
-
-  }
-
-  function trace() {
-    // Get the iframe element by its ID
-    var iframe = document.getElementById('BOFrame');
-
-    // Change the src attribute of the iframe
-    iframe.src = './trace.php';
-
-  }
-  function add_distrbutor() {
-    // Get the iframe element by its ID
-    var iframe = document.getElementById('BOFrame');
-
-    // Change the src attribute of the iframe
-    iframe.src = './add_Distributor.php';
-
-  }
-  function distributorlist() {
-    // Get the iframe element by its ID
-    var iframe = document.getElementById('BOFrame');
-
-    // Change the src attribute of the iframe
-    iframe.src = './distributorlist.php';
-
-  }
-  function add_pilot() {
-    // Get the iframe element by its ID
-    var iframe = document.getElementById('BOFrame');
-
-    // Change the src attribute of the iframe
-    iframe.src = './add_driver.php';
-
-  }
-  function pilot_list() {
-    // Get the iframe element by its ID
-    var iframe = document.getElementById('BOFrame');
-
-    // Change the src attribute of the iframe
-    iframe.src = './driverlist.php';
-
-  }
-  function shop_list() {
-    // Get the iframe element by its ID
-    var iframe = document.getElementById('BOFrame');
-
-    // Change the src attribute of the iframe
-    iframe.src = './shop_list.php';
+    iframe.src = './RS_home.php';
 
   }
     </script>
