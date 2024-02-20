@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body style="background-color: rgb(226, 240, 243);">
-    <section class="type ms-2 me-2 p-2" style="background-color: white; margin-top: 100px; border-radius: 8px;">
+    <section class="type ms-2 me-2 p-2" style="background-color: white; margin-top: 90px; border-radius: 8px;">
         <div class="container">
             <div class="row">
                 <div class="col-12">

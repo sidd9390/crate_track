@@ -1,7 +1,5 @@
 <?php
 ?>
-<?php
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -44,13 +42,13 @@
   
   <ul class="p-0 m-0">
     <a onclick="add_shop()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Add Shop</li></a>
+    <a onclick="return_crates()" style="color:black;text-decoration:none; height:fit-content;color:black;font-size:20px" data-bs-dismiss="offcanvas" aria-label="Close"><li class="list-group-item">Return Empty Crates</li></a>
     </ul>
 </div>
   </div>
 </div>
 
     <iframe src="./BOPSM_home.php" style="height:100vh;width:100%;" title="Iframe Example" id="BOFrame"></iframe>
-   
 
 
     <section style="position: fixed; width: 100%; bottom: 0%;">
@@ -114,6 +112,13 @@
     // Change the src attribute of the iframe
     iframe.src = './BOPSM_add_RS.php';
 
+  }
+  function return_crates() {
+    // Get the iframe element by its ID
+    var iframe = document.getElementById('BOFrame');
+
+    // Change the src attribute of the iframe
+    iframe.src = './BOPSM_return_EMT_crates.php';
   }
   function home() {
     // Get the iframe element by its ID
