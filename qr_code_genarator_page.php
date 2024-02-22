@@ -45,6 +45,10 @@
     </header>
     <main class="text-center">
         <div id="qrcode" class="d-flex justify-content-center"></div>
+        <div class="bttn text-center mt-3 pt-5" style="width: 100%;">
+                <a href="./BO.php" class="btn btn-primary"
+                    style="width: 100%; background: rgba(27, 154, 179, 1); padding: 12px 0px; border: 0; font-size: 20px;">Done</a>
+        </div>
     </main>
     </section>
 
