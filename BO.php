@@ -54,7 +54,7 @@
   </div>
 </div>
 
-    <iframe src="./BO_home.php" style="height:100vh;width:100%;" title="Iframe Example" id="BOFrame"></iframe>
+    <iframe src="./BO_home.php" style="height:100vh;width:100%;" class="mb-5" title="Iframe Example" id="BOFrame"></iframe>
    
 
 

@@ -48,7 +48,7 @@
   </div>
 </div>
 
-    <iframe src="./BOPSM_home.php" style="height:100vh;width:100%;" title="Iframe Example" id="BOFrame"></iframe>
+    <iframe src="./BOPSM_home.php" style="height:100vh;width:100%;" class="mb-5" title="Iframe Example" id="BOFrame"></iframe>
 
 
     <section style="position: fixed; width: 100%; bottom: 0%;">
