@@ -20,7 +20,7 @@
                     <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" href="#" style="font-size: 35px; color: white;"class="ms-2 p-0 m-0"><ion-icon name="menu-outline"></ion-icon></a>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center">
-                    <a href="#" style="font-size: 35px; color: white;"class="me-4 p-0 m-0"><ion-icon name="qr-code-outline"></ion-icon></a>
+                    <a href="./qr_code_page.php" style="font-size: 35px; color: white;"class="me-4 p-0 m-0"><ion-icon name="qr-code-outline"></ion-icon></a>
                     <a href="#" style="font-size: 35px; color: white;"class="me-4 p-0 m-0"><ion-icon name="notifications-outline"></ion-icon></a>
                     <a href="./index.html" style="font-size: 35px; color: white;"class="p-0 m-0"><ion-icon name="log-out-outline"></ion-icon></a>
                 </div>

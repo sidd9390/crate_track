@@ -47,3 +47,5 @@ function addcrate() {
 
   }
 document.getElementById('sip').addEventListener('click', addcrate);
+
+

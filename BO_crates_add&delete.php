@@ -20,14 +20,13 @@
             <hr>
             <div class="row">
                 <div class="col-8">
-
                     <h3>Enter No.of Crates</h3>
                     <div class="mb-3" style="width: 100%;">
                         <input type="number" class="form-control" style="width: 100%; text-align: center; border-top: none; border-left: none; border-right: none; border-radius: 0;" id="floatingInput" placeholder="Enter here">
                     </div>
                     <div class="d-flex flex-row">
-                        <a href="./BO_home.php" class="btn btn-primary me-2 btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Add Crates</a>
-                        <a href="./BO_home.php" class="btn btn-primary btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Delete Crates</a>
+                        <a href="./BO_crates_add&delete_status.php" class="btn btn-primary me-2 btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Add Crates</a>
+                        <a href="./BO_crates_add&delete_status.php" class="btn btn-primary btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Delete Crates</a>
                     </div>
                 </div>
                 <div class="col-4 text-end d-flex align-items-center">
