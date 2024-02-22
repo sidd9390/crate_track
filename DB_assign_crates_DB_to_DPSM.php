@@ -24,7 +24,7 @@
                         <input type="number" class="form-control" style="width: 100%; text-align: center; border-top: none; border-left: none; border-right: none; border-radius: 0;" id="floatingInput" placeholder="Enter here">
                     </div>
                     <div class="d-flex flex-row">
-                        <a href="#" class="btn btn-primary me-2 btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Send Crates</a>
+                        <a href="./qr_code_genarator_page.php" class="btn btn-primary me-2 btn-sm" style="background-color: rgba(27, 154, 179, 1); font-size: 13px; border: 0;">Send Crates</a>
                     </div>
                 </div>
                 <div class="col-4 text-end d-flex align-items-center">
